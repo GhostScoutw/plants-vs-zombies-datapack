@@ -10,6 +10,8 @@ tellraw @a { "color": "#00FF00", "text": "The pvz is Load"}
 
 
 scoreboard objectives add generic.id dummy
+scoreboard objectives add generic.health dummy
+
 scoreboard objectives add plot.id dummy
 
 scoreboard objectives add preview.pulse dummy

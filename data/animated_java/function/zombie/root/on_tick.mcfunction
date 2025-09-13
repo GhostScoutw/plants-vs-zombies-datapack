@@ -3,4 +3,5 @@ execute unless entity @s[tag=aj.zombie.root] run return 0
 execute unless score @s aj.is_rig_loaded matches 1 run function #animated_java:global/root/on_load
 execute if entity @s[tag=aj.zombie.animation.walk.playing] run function animated_java:zombie/animations/walk/zzz/on_tick
 execute if entity @s[tag=aj.zombie.animation.eat.playing] run function animated_java:zombie/animations/eat/zzz/on_tick
+execute if entity @s[tag=aj.zombie.animation.death.playing] run function animated_java:zombie/animations/death/zzz/on_tick
 execute at @s on passengers run rotate @s ~ ~

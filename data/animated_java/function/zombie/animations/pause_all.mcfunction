@@ -2,3 +2,4 @@
 execute unless entity @s[type=minecraft:item_display,tag=aj.zombie.root] run return run function animated_java:global/errors/function_not_executed_as_root_entity {'export_namespace': 'zombie', 'function_path': 'animated_java:zombie/animations/pause_all'}
 tag @s remove aj.zombie.animation.walk.playing
 tag @s remove aj.zombie.animation.eat.playing
+tag @s remove aj.zombie.animation.death.playing
