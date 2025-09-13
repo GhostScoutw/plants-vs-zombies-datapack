@@ -6,3 +6,4 @@ $data merge entity $(bone_right_arm) {transformation: [-0.9399f,0.0531f,0.3372f,
 $data merge entity $(bone_cone) {transformation: [-0.9244f,0.0323f,0.38f,0.0026f,0.0004f,0.9965f,-0.0838f,1.9322f,-0.3813f,-0.0774f,-0.9212f,0.112f,0f,0f,0f,1f],start_interpolation: 0,interpolation_duration: 1}
 $data merge entity $(bone_bucket) {transformation: [-0.9848f,0.0022f,0.1739f,0.0016f,0.0185f,0.9955f,0.0925f,1.4967f,-0.1729f,0.0943f,-0.9804f,0.0707f,0f,0f,0f,1f],start_interpolation: 0,interpolation_duration: 1}
 $data merge entity $(bone_head) {transformation: [-0.9848f,0.0022f,0.1739f,0.0016f,0.0185f,0.9955f,0.0925f,1.4967f,-0.1729f,0.0943f,-0.9804f,0.0707f,0f,0f,0f,1f],start_interpolation: 0,interpolation_duration: 1}
+execute on vehicle unless entity @s[tag=aj.transforms_only] at @s run function animated_java:zombie/animations/walk/zzz/frames/30_root_commands
