@@ -1,0 +1,19 @@
+
+gamerule doMobSpawning false
+gamerule mobGriefing false
+gamerule doFireTick false
+gamerule doImmediateRespawn true
+gamerule locatorBar false
+gamerule keepInventory true
+
+tellraw @a { "color": "#00FF00", "text": "The Code is Load"}
+
+
+scoreboard objectives add generic.id dummy
+scoreboard objectives add plot.id dummy
+
+scoreboard objectives add preview.pulse dummy
+scoreboard objectives add temp dummy
+
+scoreboard objectives add claim trigger
+scoreboard objectives add unclaim trigger

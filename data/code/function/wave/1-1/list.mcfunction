@@ -1,0 +1,33 @@
+data modify storage waves list.wave_1-1 set value {\
+    waves:[\
+        {zombies:[\
+            "normal",\
+        ],\
+        position:"random",\
+        delay:300,\
+        flag:false},\
+        \
+        {zombies:[\
+            "normal",\
+        ],\
+        position:"random",\
+        delay:300,\
+        flag:false},\
+        \
+        {zombies:[\
+            "normal",\
+        ],\
+        position:"random",\
+        delay:300,\
+        flag:false},\
+        \
+        {zombies:[\
+            "normal",\
+            "normal",\
+        ],\
+        position:"random",\
+        delay:300,\
+        flag:true},\
+        \
+    ],\
+}
