@@ -11,7 +11,7 @@ execute unless entity @n[tag=plot.root,tag=in_range] run return run tellraw @p[t
 
 tellraw @p[tag=this.player] {text:"You have claimed this plot!",color:green}
 
-execute as @n[tag=plot.root,tag=in_range] run function code:plot/claim
+execute as @n[tag=plot.root,tag=in_range] run function pvz:plot/claim
 
 
 tag @n[tag=plot.root,tag=in_range] remove in_range

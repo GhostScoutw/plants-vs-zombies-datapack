@@ -6,6 +6,6 @@ execute unless entity @n[tag=plot.root,tag=unclaim] run return run tellraw @p[ta
 
 
 tellraw @p[tag=this.player] {text:"You have unclaimed a plot!",color:yellow}
-execute as @n[tag=plot.root,tag=unclaim] at @s run function code:plot/unclaim
+execute as @n[tag=plot.root,tag=unclaim] at @s run function pvz:plot/unclaim
 
 execute as @n[tag=plot.root,tag=unclaim] run tag @s remove unclaim

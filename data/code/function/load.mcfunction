@@ -6,7 +6,7 @@ gamerule doImmediateRespawn true
 gamerule locatorBar false
 gamerule keepInventory true
 
-tellraw @a { "color": "#00FF00", "text": "The Code is Load"}
+tellraw @a { "color": "#00FF00", "text": "The pvz is Load"}
 
 
 scoreboard objectives add generic.id dummy
