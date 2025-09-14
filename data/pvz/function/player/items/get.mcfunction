@@ -7,7 +7,7 @@ execute unless data entity @s {SelectedItem:{components:{"minecraft:damage":0}}}
 tag @s add this.player
 execute as @e[tag=planting.preview] if score @s generic.id = @p[tag=this.player] generic.id run tag @s add this.preview
 
-execute if items entity @s weapon.mainhand *[custom_data~{bags:1b}] run function pvz:player/items/seedbags with entity @s SelectedItem.components."minecraft:custom_data"
+execute if items entity @s weapon.mainhand *[custom_data~{bag:1b}] run function pvz:player/items/seedbags with entity @s SelectedItem.components."minecraft:custom_data"
 
 execute if items entity @s weapon.mainhand *[custom_data~{shovel:1b}] run function pvz:player/items/shovel
 
