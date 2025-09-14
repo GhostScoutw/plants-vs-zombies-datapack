@@ -1,6 +1,7 @@
 ##BOWLING MINIGAME
 
 data modify storage waves list.wave_1-5 set value {\
+    sun_gen:999999,\
     waves:[\
         {zombies:[\
             "cone",\

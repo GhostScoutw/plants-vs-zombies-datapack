@@ -1,4 +1,7 @@
+##CONVEYOR LEVEL
+
 data modify storage waves list.wave_1-10 set value {\
+    sun_gen:999999,\
     waves:[\
         {zombies:[\
             "normal",\

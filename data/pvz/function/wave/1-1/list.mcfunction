@@ -1,4 +1,5 @@
 data modify storage waves list.wave_1-1 set value {\
+    sun_gen:120,\
     waves:[\
         {zombies:[\
             "normal",\

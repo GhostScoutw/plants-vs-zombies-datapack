@@ -1,3 +1,5 @@
+scoreboard players set @n[tag=this.player] item.adv_cooldown 5
+advancement revoke @s only pvz:use_item
 
 execute on target unless entity @s[tag=this.player] run tellraw @s {text:"This does not belong to you!",color:red}
 execute on target unless entity @s[tag=this.player] as @n[tag=this.extra] on passengers as @s[type=interaction] run return run data remove entity @s interaction

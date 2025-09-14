@@ -1,1 +1,10 @@
 function pvz:wave/1-1/list
+function pvz:wave/1-2/list
+function pvz:wave/1-3/list
+function pvz:wave/1-4/list
+function pvz:wave/1-5/list
+function pvz:wave/1-6/list
+function pvz:wave/1-7/list
+function pvz:wave/1-8/list
+function pvz:wave/1-9/list
+function pvz:wave/1-10/list

@@ -6,6 +6,8 @@ execute as @s[tag=zombie,tag=zombie.normal,tag=!death] run function pvz:zombie/n
 
 execute if score @s[tag=!death] generic.health matches ..0 run function pvz:zombie/die
 
+execute unless entity @p[tag=this.player] as @s[tag=!death] run function pvz:zombie/die
+
 tag @n[tag=this.plot] remove this.plot
 tag @p[tag=this.player] remove this.player
 tag @s remove this.zombie

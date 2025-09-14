@@ -8,7 +8,7 @@ gamerule keepInventory true
 
 tellraw @a { "color": "#00FF00", "text": "The pvz is Load"}
 
-
+function pvz:wave/load_list
 scoreboard objectives add generic.id dummy
 scoreboard objectives add generic.health dummy
 
