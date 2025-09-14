@@ -13,7 +13,7 @@ execute if items entity @s container.* *[custom_data~{cooldown:1b}] run function
 
 scoreboard players remove @s[scores={item.adv_cooldown=1..}] item.adv_cooldown 1
 
-title @a actionbar [{text:"Sun: ",color:yellow},{score:{name:"@s",objective:"player.sun"}}]
+title @s actionbar [{text:"Sun: ",color:yellow},{score:{name:"@s",objective:"player.sun"}}]
 
 tag @n[tag=this.plot] remove this.plot
 tag @s remove this.player
