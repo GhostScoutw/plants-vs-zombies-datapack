@@ -10,3 +10,4 @@ execute as @e[tag=planting.preview] at @s run function pvz:player/planting/previ
 execute as @e[tag=plant] at @s run function pvz:plant/tick
 execute as @e[tag=zombie] at @s run function pvz:zombie/tick
 execute as @e[tag=projectile] at @s run function pvz:projectile/tick
+execute as @e[tag=extra] at @s run function pvz:extra/tick
