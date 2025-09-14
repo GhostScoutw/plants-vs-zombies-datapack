@@ -5,6 +5,7 @@ execute as @e[tag=zombie] if score @s generic.id = @n[tag=this.plant] generic.id
 
 
 execute if entity @s[tag=peashooter] run function pvz:plant/peashooter/tick
+execute if entity @s[tag=sunflower] run function pvz:plant/sunflower/tick
 
 scoreboard players remove @s[scores={generic.fire_rate=1..}] generic.fire_rate 1
 scoreboard players remove @s[scores={generic.fire_delay=1..}] generic.fire_delay 1
