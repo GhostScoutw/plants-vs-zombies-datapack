@@ -9,5 +9,7 @@ execute as @n[tag=aj.zombie.root,tag=!zombie] run tag @s add walking
 
 execute as @n[tag=aj.zombie.root,tag=!zombie] run scoreboard players set @s generic.health 200
 
+scoreboard players operation @n[tag=aj.zombie.root,tag=!zombie] generic.id = @s generic.id
+
 execute as @n[tag=aj.zombie.root,tag=!zombie] run tag @s add zombie
 

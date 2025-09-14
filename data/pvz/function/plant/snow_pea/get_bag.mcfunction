@@ -17,6 +17,12 @@ give @s stick[\
         placeable:1b,\
         water_type:0b,\
         ground:0b,\
-        id:6\
-    },item_model="bags:blueprint/snow_pea"\
+        id:6,\
+        plant:"snow_pea",\
+        cooldown:1b,\
+        sun_cost:175\
+    },item_model="bags:blueprint/snow_pea",\
+    max_stack_size=1,\
+    max_damage=150,damage=150,\
+    consumable={consume_seconds:999999}\
 ]

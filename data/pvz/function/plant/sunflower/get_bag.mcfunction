@@ -17,6 +17,12 @@ give @s stick[\
         placeable:1b,\
         water_type:0b,\
         ground:0b,\
-        id:2\
-    },item_model="bags:blueprint/sunflower"\
+        id:2,\
+        plant:"sunflower",\
+        cooldown:1b,\
+        sun_cost:50\
+    },item_model="bags:blueprint/sunflower",\
+    max_stack_size=1,\
+    max_damage=150,damage=150,\
+    consumable={consume_seconds:999999}\
 ]

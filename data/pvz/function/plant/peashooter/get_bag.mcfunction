@@ -18,6 +18,12 @@ give @s stick[\
         placeable:1b,\
         water_type:0b,\
         ground:0b,\
-        id:1\
-    },item_model="bags:blueprint/peashooter"\
+        id:1,\
+        plant:"peashooter",\
+        cooldown:1b,\
+        sun_cost:100\
+    },item_model="bags:blueprint/peashooter",\
+    max_stack_size=1,\
+    max_damage=150,damage=150,\
+    consumable={consume_seconds:999999}\
 ]

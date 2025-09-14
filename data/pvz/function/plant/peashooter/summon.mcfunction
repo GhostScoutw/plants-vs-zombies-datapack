@@ -1,10 +1,15 @@
 
 function animated_java:peashooter/summon {args:{}}
-execute as @n[tag=aj.peashooter.root,tag=!plant] run tag @s add peashooter
-execute as @n[tag=aj.peashooter.root,tag=!plant] run rotate @s 90 0
+tag @n[tag=aj.peashooter.root,tag=!plant] add peashooter
+rotate @n[tag=aj.peashooter.root,tag=!plant] 90 0
 execute as @n[tag=aj.peashooter.root,tag=!plant] run function animated_java:peashooter/animations/idle/play
 
-execute as @n[tag=aj.peashooter.root,tag=!plant] run scoreboard players set @s generic.health 200
+scoreboard players operation @n[tag=aj.peashooter.root,tag=!plant] generic.id = @s generic.id
 
-execute as @n[tag=aj.peashooter.root,tag=!plant] run tag @s add plant
+scoreboard players set @n[tag=aj.peashooter.root,tag=!plant] generic.health 80
+scoreboard players set @n[tag=aj.peashooter.root,tag=!plant] generic.fire_rate 0
+scoreboard players set @n[tag=aj.peashooter.root,tag=!plant] generic.fire_delay 0
+scoreboard players set @n[tag=aj.peashooter.root,tag=!plant] generic.delay 0
+
+tag @n[tag=aj.peashooter.root,tag=!plant] add plant
 

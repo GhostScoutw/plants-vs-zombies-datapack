@@ -16,6 +16,12 @@ give @s stick[\
         placeable:1b,\
         water_type:0b,\
         ground:0b,\
-        id:4\
-    },item_model="bags:blueprint/wall_nut"\
+        id:4,\
+        plant:"wall_nut",\
+        cooldown:1b,\
+        sun_cost:50\
+    },item_model="bags:blueprint/wall_nut",\
+    max_stack_size=1,\
+    max_damage=150,damage=150,\
+    consumable={consume_seconds:999999}\
 ]

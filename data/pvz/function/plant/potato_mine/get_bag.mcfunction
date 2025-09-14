@@ -19,6 +19,12 @@ give @s stick[\
         placeable:1b,\
         water_type:0b,\
         ground:1b,\
-        id:5\
-    },item_model="bags:blueprint/potato_mine"\
+        id:5,\
+        plant:"potato_mine",\
+        cooldown:1b,\
+        sun_cost:25\
+    },item_model="bags:blueprint/potato_mine",\
+    max_stack_size=1,\
+    max_damage=150,damage=150,\
+    consumable={consume_seconds:999999}\
 ]

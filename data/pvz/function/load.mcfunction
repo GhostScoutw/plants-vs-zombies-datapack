@@ -12,7 +12,17 @@ tellraw @a { "color": "#00FF00", "text": "The pvz is Load"}
 scoreboard objectives add generic.id dummy
 scoreboard objectives add generic.health dummy
 
+scoreboard objectives add generic.fire_rate dummy
+scoreboard objectives add generic.fire_delay dummy
+scoreboard objectives add generic.delay dummy
+scoreboard objectives add generic.lifetime dummy
+
+scoreboard objectives add player.sun dummy
+
 scoreboard objectives add plot.id dummy
+
+scoreboard objectives add item.adv_cooldown dummy
+
 
 scoreboard objectives add preview.pulse dummy
 scoreboard objectives add temp dummy

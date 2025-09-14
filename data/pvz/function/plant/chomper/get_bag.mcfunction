@@ -19,6 +19,12 @@ give @s stick[\
         placeable:1b,\
         water_type:0b,\
         ground:0b,\
-        id:7\
-    },item_model="bags:blueprint/chomper"\
+        id:7,\
+        plant:"chomper",\
+        cooldown:1b,\
+        sun_cost:150\
+    },item_model="bags:blueprint/chomper",\
+    max_stack_size=1,\
+    max_damage=150,damage=150,\
+    consumable={consume_seconds:999999}\
 ]

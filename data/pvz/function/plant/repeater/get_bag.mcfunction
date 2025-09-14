@@ -18,6 +18,12 @@ give @s stick[\
         placeable:1b,\
         water_type:0b,\
         ground:0b,\
-        id:8\
-    },item_model="bags:blueprint/repeater"\
+        id:8,\
+        plant:"repeater",\
+        cooldown:1b,\
+        sun_cost:200\
+    },item_model="bags:blueprint/repeater",\
+    max_stack_size=1,\
+    max_damage=150,damage=150,\
+    consumable={consume_seconds:999999}\
 ]

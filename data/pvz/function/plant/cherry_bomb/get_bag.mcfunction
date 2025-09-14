@@ -18,6 +18,12 @@ give @s stick[\
         placeable:1b,\
         water_type:0b,\
         ground:0b,\
-        id:3\
-    },item_model="bags:blueprint/cherry_bomb"\
+        id:3,\
+        plant:"cherry_bomb",\
+        cooldown:1b,\
+        sun_cost:150\
+    },item_model="bags:blueprint/cherry_bomb",\
+    max_stack_size=1,\
+    max_damage=150,damage=150,\
+    consumable={consume_seconds:999999}\
 ]
