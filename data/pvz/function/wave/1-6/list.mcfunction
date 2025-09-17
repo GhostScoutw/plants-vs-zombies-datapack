@@ -2,82 +2,82 @@ data modify storage waves list.wave_1-6 set value {\
     sun_gen:120,\
     waves:[\
         {zombies:[\
-            "normal",\
+            {zombie:"normal"},\
         ],\
         position:"random",\
         delay:300,\
         flag:false},\
         \
         {zombies:[\
-            "normal",\
+            {zombie:"normal"},\
         ],\
         position:"random",\
         delay:300,\
         flag:false},\
         \
         {zombies:[\
-            "normal",\
+            {zombie:"normal"},\
         ],\
         position:"random",\
         delay:300,\
         flag:false},\
         \
         {zombies:[\
-            "normal",\
-            "normal",\
+            {zombie:"normal"},\
+            {zombie:"normal"},\
         ],\
         position:"random",\
         delay:300,\
         flag:false},\
         \
         {zombies:[\
-            "normal",\
-            "normal",\
+            {zombie:"normal"},\
+            {zombie:"normal"},\
         ],\
         position:"random",\
         delay:300,\
         flag:false},\
         \
         {zombies:[\
-            "pole_vaulting",\
+            {zombie:"pole_vaulting"},\
         ],\
         position:"random",\
         delay:300,\
         flag:false},\
         \
         {zombies:[\
-            "pole_vaulting",\
-            "normal",\
+            {zombie:"pole_vaulting"},\
+            {zombie:"normal"},\
         ],\
         position:"random",\
         delay:300,\
         flag:false},\
         \
         {zombies:[\
-            "normal",\
-            "cone",\
+            {zombie:"normal"},\
+            {zombie:"cone"},\
         ],\
         position:"random",\
         delay:300,\
         flag:false},\
         \
         {zombies:[\
-            "normal",\
-            "cone",\
+            {zombie:"normal"},\
+            {zombie:"cone"},\
         ],\
         position:"random",\
         delay:300,\
         flag:false},\
         \
         {zombies:[\
-            "normal",\
-            "normal",\
-            "normal",\
-            "normal",\
-            "normal",\
-            "normal",\
-            "pole_vaulting",\
-            "cone",\
+            {zombie:"normal"},\
+            {zombie:"normal"},\
+            {zombie:"normal"},\
+            {zombie:"normal"},\
+            {zombie:"normal"},\
+            {zombie:"normal"},\
+            {zombie:"pole_vaulting"},\
+            {zombie:"cone"},\
         ],\
         position:"random",\
         delay:300,\

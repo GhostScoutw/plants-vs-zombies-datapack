@@ -12,6 +12,7 @@ scoreboard players remove @s[scores={generic.fire_delay=1..}] generic.fire_delay
 scoreboard players remove @s[scores={generic.delay=1..}] generic.delay 1
 
 execute unless entity @p[tag=this.player] run function pvz:plant/die
+execute unless entity @n[tag=this.plot] run function pvz:plant/die
 
 tag @e[tag=these.zombies] remove these.zombies
 tag @n[tag=this.plot] remove this.plot

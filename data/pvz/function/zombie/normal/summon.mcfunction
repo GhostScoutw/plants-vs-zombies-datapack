@@ -11,5 +11,7 @@ execute as @n[tag=aj.zombie.root,tag=!zombie] run scoreboard players set @s gene
 
 scoreboard players operation @n[tag=aj.zombie.root,tag=!zombie] generic.id = @s generic.id
 
+execute if entity @s[tag=this.plot] run tag @n[tag=aj.zombie.root,tag=!zombie] add this.frame
+
 execute as @n[tag=aj.zombie.root,tag=!zombie] run tag @s add zombie
 

@@ -2,58 +2,58 @@ data modify storage waves list.wave_1-3 set value {\
     sun_gen:120,\
     waves:[\
         {zombies:[\
-            "normal",\
+            {zombie:"normal"},\
         ],\
         position:"random",\
         delay:300,\
         flag:false},\
         \
         {zombies:[\
-            "normal",\
+            {zombie:"normal"},\
         ],\
         position:"random",\
         delay:300,\
         flag:false},\
         \
         {zombies:[\
-            "normal",\
-            "normal",\
+            {zombie:"normal"},\
+            {zombie:"normal"},\
         ],\
         position:"random",\
         delay:300,\
         flag:false},\
         \
         {zombies:[\
-            "cone",\
+            {zombie:"cone"},\
         ],\
         position:"random",\
         delay:300,\
         flag:false},\
         \
         {zombies:[\
-            "normal",\
-            "normal",\
+            {zombie:"normal"},\
+            {zombie:"normal"},\
         ],\
         position:"random",\
         delay:300,\
         flag:false},\
         \
         {zombies:[\
-            "normal",\
-            "normal",\
-            "normal",\
+            {zombie:"normal"},\
+            {zombie:"normal"},\
+            {zombie:"normal"},\
         ],\
         position:"random",\
         delay:300,\
         flag:false},\
         \
         {zombies:[\
-            "normal",\
-            "normal",\
-            "normal",\
-            "normal",\
-            "normal",\
-            "cone",\
+            {zombie:"normal"},\
+            {zombie:"normal"},\
+            {zombie:"normal"},\
+            {zombie:"normal"},\
+            {zombie:"normal"},\
+            {zombie:"cone"},\
         ],\
         position:"random",\
         delay:300,\

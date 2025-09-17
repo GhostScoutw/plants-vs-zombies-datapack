@@ -4,104 +4,104 @@ data modify storage waves list.wave_1-5 set value {\
     sun_gen:999999,\
     waves:[\
         {zombies:[\
-            "cone",\
-            "cone",\
+            {zombie:"cone"},\
+            {zombie:"cone"},\
         ],\
         position:"random",\
         delay:300,\
         flag:false},\
         \
         {zombies:[\
-            "cone",\
-            "cone",\
+            {zombie:"cone"},\
+            {zombie:"cone"},\
         ],\
         position:"random",\
         delay:300,\
         flag:false},\
         \
         {zombies:[\
-            "cone",\
-            "cone",\
+            {zombie:"cone"},\
+            {zombie:"cone"},\
         ],\
         position:"random",\
         delay:300,\
         flag:false},\
         \
         {zombies:[\
-            "normal",\
-            "normal",\
-            "normal",\
-            "normal",\
+            {zombie:"normal"},\
+            {zombie:"normal"},\
+            {zombie:"normal"},\
+            {zombie:"normal"},\
         ],\
         position:"random",\
         delay:300,\
         flag:false},\
         \
         {zombies:[\
-            "normal",\
-            "normal",\
-            "normal",\
-            "normal",\
-            "cone",\
-            "cone",\
+            {zombie:"normal"},\
+            {zombie:"normal"},\
+            {zombie:"normal"},\
+            {zombie:"normal"},\
+            {zombie:"cone"},\
+            {zombie:"cone"},\
         ],\
         position:"random",\
         delay:300,\
         flag:false},\
         \
         {zombies:[\
-            "normal",\
-            "normal",\
-            "normal",\
-            "normal",\
-            "normal",\
-            "normal",\
-            "cone",\
+            {zombie:"normal"},\
+            {zombie:"normal"},\
+            {zombie:"normal"},\
+            {zombie:"normal"},\
+            {zombie:"normal"},\
+            {zombie:"normal"},\
+            {zombie:"cone"},\
         ],\
         position:"random",\
         delay:300,\
         flag:false},\
         \
         {zombies:[\
-            "normal",\
-            "normal",\
-            "normal",\
-            "normal",\
-            "cone",\
-            "cone",\
+            {zombie:"normal"},\
+            {zombie:"normal"},\
+            {zombie:"normal"},\
+            {zombie:"normal"},\
+            {zombie:"cone"},\
+            {zombie:"cone"},\
         ],\
         position:"random",\
         delay:300,\
         flag:false},\
         \
         {zombies:[\
-            "normal",\
-            "normal",\
-            "normal",\
-            "normal",\
-            "cone",\
-            "cone",\
-            "cone",\
-            "cone",\
+            {zombie:"normal"},\
+            {zombie:"normal"},\
+            {zombie:"normal"},\
+            {zombie:"normal"},\
+            {zombie:"cone"},\
+            {zombie:"cone"},\
+            {zombie:"cone"},\
+            {zombie:"cone"},\
         ],\
         position:"random",\
         delay:300,\
         flag:false},\
         \
         {zombies:[\
-            "normal",\
-            "normal",\
-            "normal",\
-            "normal",\
-            "normal",\
-            "normal",\
-            "normal",\
-            "normal",\
-            "normal",\
-            "normal",\
-            "cone",\
-            "cone",\
-            "cone",\
+            {zombie:"normal"},\
+            {zombie:"normal"},\
+            {zombie:"normal"},\
+            {zombie:"normal"},\
+            {zombie:"normal"},\
+            {zombie:"normal"},\
+            {zombie:"normal"},\
+            {zombie:"normal"},\
+            {zombie:"normal"},\
+            {zombie:"normal"},\
+            {zombie:"cone"},\
+            {zombie:"cone"},\
+            {zombie:"cone"},\
         ],\
         position:"random",\
         delay:300,\

@@ -2,190 +2,190 @@ data modify storage waves list.wave_1-9 set value {\
     sun_gen:120,\
     waves:[\
         {zombies:[\
-            "normal",\
+            {zombie:"normal"},\
         ],\
         position:"random",\
         delay:300,\
         flag:false},\
         \
         {zombies:[\
-            "normal",\
+            {zombie:"normal"},\
         ],\
         position:"random",\
         delay:300,\
         flag:false},\
         \
         {zombies:[\
-            "normal",\
+            {zombie:"normal"},\
         ],\
         position:"random",\
         delay:300,\
         flag:false},\
         \
         {zombies:[\
-            "normal",\
-            "normal",\
+            {zombie:"normal"},\
+            {zombie:"normal"},\
         ],\
         position:"random",\
         delay:300,\
         flag:false},\
         \
         {zombies:[\
-            "normal",\
-            "normal",\
+            {zombie:"normal"},\
+            {zombie:"normal"},\
         ],\
         position:"random",\
         delay:300,\
         flag:false},\
         \
         {zombies:[\
-            "pole_vaulting",\
+            {zombie:"pole_vaulting"},\
         ],\
         position:"random",\
         delay:300,\
         flag:false},\
         \
         {zombies:[\
-            "normal",\
-            "normal",\
-            "normal",\
+            {zombie:"normal"},\
+            {zombie:"normal"},\
+            {zombie:"normal"},\
         ],\
         position:"random",\
         delay:300,\
         flag:false},\
         \
         {zombies:[\
-            "pole_vaulting",\
-            "normal",\
+            {zombie:"pole_vaulting"},\
+            {zombie:"normal"},\
         ],\
         position:"random",\
         delay:300,\
         flag:false},\
         \
         {zombies:[\
-            "normal",\
-            "cone",\
+            {zombie:"normal"},\
+            {zombie:"cone"},\
         ],\
         position:"random",\
         delay:300,\
         flag:false},\
         \
         {zombies:[\
-            "normal",\
-            "normal",\
-            "normal",\
+            {zombie:"normal"},\
+            {zombie:"normal"},\
+            {zombie:"normal"},\
         ],\
         position:"random",\
         delay:300,\
         flag:false},\
         \
         {zombies:[\
-            "normal",\
-            "normal",\
-            "normal",\
-            "normal",\
-            "normal",\
-            "normal",\
-            "cone",\
-            "cone",\
+            {zombie:"normal"},\
+            {zombie:"normal"},\
+            {zombie:"normal"},\
+            {zombie:"normal"},\
+            {zombie:"normal"},\
+            {zombie:"normal"},\
+            {zombie:"cone"},\
+            {zombie:"cone"},\
         ],\
         position:"random",\
         delay:300,\
         flag:true},\
         \
         {zombies:[\
-            "pole_vaulting",\
-            "normal",\
-            "normal",\
+            {zombie:"pole_vaulting"},\
+            {zombie:"normal"},\
+            {zombie:"normal"},\
         ],\
         position:"random",\
         delay:300,\
         flag:false},\
         \
         {zombies:[\
-            "bucket",\
+            {zombie:"bucket"},\
         ],\
         position:"random",\
         delay:300,\
         flag:false},\
         \
         {zombies:[\
-            "normal",\
-            "cone",\
-            "pole_vaulting",\
+            {zombie:"normal"},\
+            {zombie:"cone"},\
+            {zombie:"pole_vaulting"},\
         ],\
         position:"random",\
         delay:300,\
         flag:false},\
         \
         {zombies:[\
-            "cone",\
-            "cone",\
-            "normal",\
+            {zombie:"cone"},\
+            {zombie:"cone"},\
+            {zombie:"normal"},\
         ],\
         position:"random",\
         delay:300,\
         flag:false},\
         \
         {zombies:[\
-            "cone",\
-            "cone",\
-            "normal",\
+            {zombie:"cone"},\
+            {zombie:"cone"},\
+            {zombie:"normal"},\
         ],\
         position:"random",\
         delay:300,\
         flag:false},\
         \
         {zombies:[\
-            "cone",\
-            "pole_vaulting",\
-            "normal",\
-            "normal",\
+            {zombie:"cone"},\
+            {zombie:"pole_vaulting"},\
+            {zombie:"normal"},\
+            {zombie:"normal"},\
         ],\
         position:"random",\
         delay:300,\
         flag:false},\
         \
         {zombies:[\
-            "normal",\
-            "normal",\
-            "bucket",\
+            {zombie:"normal"},\
+            {zombie:"normal"},\
+            {zombie:"bucket"},\
         ],\
         position:"random",\
         delay:300,\
         flag:false},\
         \
         {zombies:[\
-            "cone",\
-            "cone",\
-            "cone",\
+            {zombie:"cone"},\
+            {zombie:"cone"},\
+            {zombie:"cone"},\
         ],\
         position:"random",\
         delay:300,\
         flag:false},\
         \
         {zombies:[\
-            "pole_vaulting",\
-            "cone",\
-            "cone",\
-            "normal",\
+            {zombie:"pole_vaulting"},\
+            {zombie:"cone"},\
+            {zombie:"cone"},\
+            {zombie:"normal"},\
         ],\
         position:"random",\
         delay:300,\
         flag:false},\
         \
         {zombies:[\
-            "normal",\
-            "normal",\
-            "normal",\
-            "normal",\
-            "normal",\
-            "normal",\
-            "normal",\
-            "normal",\
-            "pole_vaulting",\
-            "bucket",\
-            "cone",\
+            {zombie:"normal"},\
+            {zombie:"normal"},\
+            {zombie:"normal"},\
+            {zombie:"normal"},\
+            {zombie:"normal"},\
+            {zombie:"normal"},\
+            {zombie:"normal"},\
+            {zombie:"normal"},\
+            {zombie:"pole_vaulting"},\
+            {zombie:"bucket"},\
+            {zombie:"cone"},\
         ],\
         position:"random",\
         delay:300,\

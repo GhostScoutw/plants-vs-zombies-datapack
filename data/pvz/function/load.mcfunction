@@ -23,6 +23,20 @@ scoreboard objectives add plot.id dummy
 
 scoreboard objectives add item.adv_cooldown dummy
 
+scoreboard objectives add wave.zombie_count dummy
+scoreboard objectives add wave.row1.zombie_count dummy
+scoreboard objectives add wave.row2.zombie_count dummy
+scoreboard objectives add wave.row3.zombie_count dummy
+scoreboard objectives add wave.row4.zombie_count dummy
+scoreboard objectives add wave.row5.zombie_count dummy
+scoreboard objectives add wave.row6.zombie_count dummy
+
+scoreboard objectives add wave.time_last_wave dummy
+scoreboard objectives add wave.index dummy
+
+scoreboard objectives add wave.sun_drop dummy
+scoreboard objectives add wave.sun_drop.max dummy
+
 
 scoreboard objectives add preview.pulse dummy
 scoreboard objectives add temp dummy
