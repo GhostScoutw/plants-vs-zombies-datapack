@@ -19,6 +19,8 @@ title @s actionbar [{text:"Sun: ",color:yellow},{score:{name:"@s",objective:"pla
 execute unless entity @n[tag=this.plot] run tag @s remove wave_active
 
 execute if entity @s[tag=wave_active] run function pvz:wave/tick
+function pvz:enderchest/tick
+
 
 tag @e[tag=these.zombies] remove these.zombies
 tag @n[tag=this.plot] remove this.plot

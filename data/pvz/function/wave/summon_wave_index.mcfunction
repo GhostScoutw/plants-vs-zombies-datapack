@@ -1,3 +1,6 @@
+tag @s remove first_wave
+
+$execute if data storage pvz:main player_storage.player$(id).wave.waves[0].zombies[] run scoreboard players add @s wave.zombie_count 1
 
 $data modify storage pvz:main player_storage.player$(id).wave.waves[0].zombies[0].id set value $(id)
 

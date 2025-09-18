@@ -18,6 +18,9 @@ scoreboard objectives add generic.delay dummy
 scoreboard objectives add generic.lifetime dummy
 
 scoreboard objectives add player.sun dummy
+scoreboard objectives add player.progress dummy
+scoreboard objectives add player.current_level dummy
+scoreboard objectives add player.endchest.id dummy
 
 scoreboard objectives add plot.id dummy
 

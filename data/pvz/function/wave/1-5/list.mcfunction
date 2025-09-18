@@ -1,7 +1,7 @@
 ##BOWLING MINIGAME
 
 data modify storage waves list.wave_1-5 set value {\
-    sun_gen:999999,\
+    sun_gen:999999,level:5,starting_sun:0,\
     waves:[\
         {zombies:[\
             {zombie:"cone"},\
@@ -104,7 +104,7 @@ data modify storage waves list.wave_1-5 set value {\
             {zombie:"cone"},\
         ],\
         position:"random",\
-        delay:300,\
+        delay:0,\
         flag:true},\
         \
     ],\

@@ -1,7 +1,7 @@
 ##CONVEYOR LEVEL
 
 data modify storage waves list.wave_1-10 set value {\
-    sun_gen:999999,\
+    sun_gen:999999,level:10,starting_sun:0,\
     waves:[\
         {zombies:[\
             {zombie:"normal"},\
@@ -240,7 +240,7 @@ data modify storage waves list.wave_1-10 set value {\
             {zombie:"pole_vaulting"},\
         ],\
         position:"random",\
-        delay:300,\
+        delay:0,\
         flag:true},\
         \
     ],\
