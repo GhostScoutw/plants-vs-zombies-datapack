@@ -1,14 +1,14 @@
 ##CONVEYOR LEVEL
 
 data modify storage waves list.wave_1-10 set value {\
-    sun_gen:999999,level:10,starting_sun:0,\
+    sun_gen:999999,level:10,starting_sun:0,lanes:6,\
     waves:[\
         {zombies:[\
             {zombie:"normal"},\
             {zombie:"cone"},\
         ],\
         position:"random",\
-        delay:300,\
+        delay:400,\
         flag:false},\
         \
         {zombies:[\
@@ -17,7 +17,7 @@ data modify storage waves list.wave_1-10 set value {\
             {zombie:"normal"},\
         ],\
         position:"random",\
-        delay:300,\
+        delay:400,\
         flag:false},\
         \
         {zombies:[\
@@ -25,7 +25,7 @@ data modify storage waves list.wave_1-10 set value {\
             {zombie:"cone"},\
         ],\
         position:"random",\
-        delay:300,\
+        delay:400,\
         flag:false},\
         \
         {zombies:[\
@@ -34,7 +34,7 @@ data modify storage waves list.wave_1-10 set value {\
             {zombie:"bucket"},\
         ],\
         position:"random",\
-        delay:300,\
+        delay:400,\
         flag:false},\
         \
         {zombies:[\
@@ -44,7 +44,7 @@ data modify storage waves list.wave_1-10 set value {\
             {zombie:"pole_vaulting"},\
         ],\
         position:"random",\
-        delay:300,\
+        delay:400,\
         flag:false},\
         \
         {zombies:[\
@@ -53,7 +53,7 @@ data modify storage waves list.wave_1-10 set value {\
             {zombie:"bucket"},\
         ],\
         position:"random",\
-        delay:300,\
+        delay:400,\
         flag:false},\
         \
         {zombies:[\
@@ -64,7 +64,7 @@ data modify storage waves list.wave_1-10 set value {\
             {zombie:"pole_vaulting"},\
         ],\
         position:"random",\
-        delay:300,\
+        delay:400,\
         flag:false},\
         \
         {zombies:[\
@@ -73,7 +73,7 @@ data modify storage waves list.wave_1-10 set value {\
             {zombie:"bucket"},\
         ],\
         position:"random",\
-        delay:300,\
+        delay:400,\
         flag:false},\
         \
         {zombies:[\
@@ -84,7 +84,7 @@ data modify storage waves list.wave_1-10 set value {\
             {zombie:"bucket"},\
         ],\
         position:"random",\
-        delay:300,\
+        delay:400,\
         flag:false},\
         \
         {zombies:[\
@@ -102,7 +102,7 @@ data modify storage waves list.wave_1-10 set value {\
             {zombie:"pole_vaulting"},\
         ],\
         position:"random",\
-        delay:300,\
+        delay:400,\
         flag:true},\
         \
         {zombies:[\
@@ -114,7 +114,7 @@ data modify storage waves list.wave_1-10 set value {\
             {zombie:"pole_vaulting"},\
         ],\
         position:"random",\
-        delay:300,\
+        delay:400,\
         flag:false},\
         \
         {zombies:[\
@@ -125,19 +125,7 @@ data modify storage waves list.wave_1-10 set value {\
             {zombie:"bucket"},\
         ],\
         position:"random",\
-        delay:300,\
-        flag:false},\
-        \
-        {zombies:[\
-            {zombie:"normal"},\
-            {zombie:"cone"},\
-            {zombie:"cone"},\
-            {zombie:"bucket"},\
-            {zombie:"bucket"},\
-            {zombie:"pole_vaulting"},\
-        ],\
-        position:"random",\
-        delay:300,\
+        delay:400,\
         flag:false},\
         \
         {zombies:[\
@@ -147,63 +135,75 @@ data modify storage waves list.wave_1-10 set value {\
             {zombie:"bucket"},\
             {zombie:"bucket"},\
             {zombie:"pole_vaulting"},\
-            {zombie:"pole_vaulting"},\
         ],\
         position:"random",\
-        delay:300,\
+        delay:400,\
         flag:false},\
         \
         {zombies:[\
-            {zombie:"normal"},\
-            {zombie:"normal"},\
-            {zombie:"normal"},\
-            {zombie:"cone"},\
-            {zombie:"cone"},\
-            {zombie:"bucket"},\
-            {zombie:"bucket"},\
-        ],\
-        position:"random",\
-        delay:300,\
-        flag:false},\
-        \
-        {zombies:[\
-            {zombie:"normal"},\
-            {zombie:"normal"},\
-            {zombie:"normal"},\
-            {zombie:"normal"},\
-            {zombie:"cone"},\
-            {zombie:"cone"},\
-            {zombie:"cone"},\
-            {zombie:"cone"},\
-            {zombie:"cone"},\
-            {zombie:"bucket"},\
-        ],\
-        position:"random",\
-        delay:300,\
-        flag:false},\
-        \
-        {zombies:[\
-            {zombie:"normal"},\
-            {zombie:"bucket"},\
-            {zombie:"bucket"},\
-            {zombie:"bucket"},\
-            {zombie:"bucket"},\
-        ],\
-        position:"random",\
-        delay:300,\
-        flag:false},\
-        \
-        {zombies:[\
-            {zombie:"normal"},\
             {zombie:"normal"},\
             {zombie:"cone"},\
             {zombie:"cone"},\
             {zombie:"bucket"},\
             {zombie:"bucket"},\
             {zombie:"pole_vaulting"},\
+            {zombie:"pole_vaulting"},\
         ],\
         position:"random",\
-        delay:300,\
+        delay:400,\
+        flag:false},\
+        \
+        {zombies:[\
+            {zombie:"normal"},\
+            {zombie:"normal"},\
+            {zombie:"normal"},\
+            {zombie:"cone"},\
+            {zombie:"cone"},\
+            {zombie:"bucket"},\
+            {zombie:"bucket"},\
+        ],\
+        position:"random",\
+        delay:400,\
+        flag:false},\
+        \
+        {zombies:[\
+            {zombie:"normal"},\
+            {zombie:"normal"},\
+            {zombie:"normal"},\
+            {zombie:"normal"},\
+            {zombie:"cone"},\
+            {zombie:"cone"},\
+            {zombie:"cone"},\
+            {zombie:"cone"},\
+            {zombie:"cone"},\
+            {zombie:"bucket"},\
+        ],\
+        position:"random",\
+        delay:400,\
+        flag:false},\
+        \
+        {zombies:[\
+            {zombie:"normal"},\
+            {zombie:"bucket"},\
+            {zombie:"bucket"},\
+            {zombie:"bucket"},\
+            {zombie:"bucket"},\
+        ],\
+        position:"random",\
+        delay:400,\
+        flag:false},\
+        \
+        {zombies:[\
+            {zombie:"normal"},\
+            {zombie:"normal"},\
+            {zombie:"cone"},\
+            {zombie:"cone"},\
+            {zombie:"bucket"},\
+            {zombie:"bucket"},\
+            {zombie:"pole_vaulting"},\
+        ],\
+        position:"random",\
+        delay:400,\
         flag:false},\
         \
         {zombies:[\
@@ -217,7 +217,7 @@ data modify storage waves list.wave_1-10 set value {\
             {zombie:"pole_vaulting"},\
         ],\
         position:"random",\
-        delay:300,\
+        delay:400,\
         flag:false},\
         \
         {zombies:[\

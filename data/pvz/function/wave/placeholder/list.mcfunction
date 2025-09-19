@@ -1,5 +1,5 @@
 data modify storage waves list.wave_0-0 set value {\
-    sun_gen:120,level:0,starting_sun:50,\
+    sun_gen:120,level:0,starting_sun:50,lanes:6,\
     waves:[\
         {zombies:[\
             {zombie:"normal"},\
@@ -24,7 +24,7 @@ data modify storage waves list.wave_0-0 set value {\
             {zombie:"normal"},\
         ],\
         position:"random",\
-        delay:300,\
+        delay:400,\
         flag:false},\
         \
         {zombies:[\

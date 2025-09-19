@@ -1,14 +1,14 @@
 ##BOWLING MINIGAME
 
 data modify storage waves list.wave_1-5 set value {\
-    sun_gen:999999,level:5,starting_sun:0,\
+    sun_gen:999999,level:5,starting_sun:0,lanes:6,\
     waves:[\
         {zombies:[\
             {zombie:"cone"},\
             {zombie:"cone"},\
         ],\
         position:"random",\
-        delay:300,\
+        delay:400,\
         flag:false},\
         \
         {zombies:[\
@@ -16,7 +16,7 @@ data modify storage waves list.wave_1-5 set value {\
             {zombie:"cone"},\
         ],\
         position:"random",\
-        delay:300,\
+        delay:400,\
         flag:false},\
         \
         {zombies:[\
@@ -24,7 +24,7 @@ data modify storage waves list.wave_1-5 set value {\
             {zombie:"cone"},\
         ],\
         position:"random",\
-        delay:300,\
+        delay:400,\
         flag:false},\
         \
         {zombies:[\
@@ -34,32 +34,7 @@ data modify storage waves list.wave_1-5 set value {\
             {zombie:"normal"},\
         ],\
         position:"random",\
-        delay:300,\
-        flag:false},\
-        \
-        {zombies:[\
-            {zombie:"normal"},\
-            {zombie:"normal"},\
-            {zombie:"normal"},\
-            {zombie:"normal"},\
-            {zombie:"cone"},\
-            {zombie:"cone"},\
-        ],\
-        position:"random",\
-        delay:300,\
-        flag:false},\
-        \
-        {zombies:[\
-            {zombie:"normal"},\
-            {zombie:"normal"},\
-            {zombie:"normal"},\
-            {zombie:"normal"},\
-            {zombie:"normal"},\
-            {zombie:"normal"},\
-            {zombie:"cone"},\
-        ],\
-        position:"random",\
-        delay:300,\
+        delay:400,\
         flag:false},\
         \
         {zombies:[\
@@ -71,7 +46,32 @@ data modify storage waves list.wave_1-5 set value {\
             {zombie:"cone"},\
         ],\
         position:"random",\
-        delay:300,\
+        delay:400,\
+        flag:false},\
+        \
+        {zombies:[\
+            {zombie:"normal"},\
+            {zombie:"normal"},\
+            {zombie:"normal"},\
+            {zombie:"normal"},\
+            {zombie:"normal"},\
+            {zombie:"normal"},\
+            {zombie:"cone"},\
+        ],\
+        position:"random",\
+        delay:400,\
+        flag:false},\
+        \
+        {zombies:[\
+            {zombie:"normal"},\
+            {zombie:"normal"},\
+            {zombie:"normal"},\
+            {zombie:"normal"},\
+            {zombie:"cone"},\
+            {zombie:"cone"},\
+        ],\
+        position:"random",\
+        delay:400,\
         flag:false},\
         \
         {zombies:[\
@@ -85,7 +85,7 @@ data modify storage waves list.wave_1-5 set value {\
             {zombie:"cone"},\
         ],\
         position:"random",\
-        delay:300,\
+        delay:400,\
         flag:false},\
         \
         {zombies:[\

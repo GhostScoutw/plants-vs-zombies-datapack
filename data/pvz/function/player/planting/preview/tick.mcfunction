@@ -13,6 +13,7 @@ execute unless entity @n[tag=this.plot] unless data entity @s {text:{text:"▣",
 
 execute at @n[tag=this.plot] if entity @s[dx=23,dz=11,dy=5] unless data entity @s {text:{text:"▣",color:green}} run data modify entity @s text set value {text:"▣",color:green}
 execute at @n[tag=this.plot] unless entity @s[dx=23,dz=11,dy=5] unless data entity @s {text:{text:"▣",color:red}} run data modify entity @s text set value {text:"▣",color:red}
+execute at @s unless block ~ ~-2.5 ~ emerald_block unless data entity @s {text:{text:"▣",color:red}} run data modify entity @s text set value {text:"▣",color:red}
 
 execute unless items entity @p[tag=this.player] weapon.mainhand stick run function pvz:player/planting/preview/kill
 

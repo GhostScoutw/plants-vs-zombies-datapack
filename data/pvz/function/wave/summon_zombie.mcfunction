@@ -6,6 +6,9 @@ execute if data storage pvz:temp {wave:{position:"balanced"}} run tag @s add pos
 #random positions
 execute if entity @s[tag=position.random] store result score lane temp run random value 1..6
 
+execute if entity @s[tag=position.random,scores={wave.lanes=1}] run scoreboard players set lane temp 3
+execute if entity @s[tag=position.random,scores={wave.lanes=3}] store result score lane temp run random value 2..4
+
 
 #balanced positions
 

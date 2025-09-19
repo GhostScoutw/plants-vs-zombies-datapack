@@ -36,6 +36,11 @@ scoreboard objectives add wave.row6.zombie_count dummy
 
 scoreboard objectives add wave.time_last_wave dummy
 scoreboard objectives add wave.index dummy
+scoreboard objectives add wave.progress dummy
+scoreboard objectives add wave.progress.max dummy
+
+scoreboard objectives add wave.is_flag dummy
+scoreboard objectives add wave.lanes dummy
 
 scoreboard objectives add wave.sun_drop dummy
 scoreboard objectives add wave.sun_drop.max dummy

@@ -1,25 +1,25 @@
 data modify storage waves list.wave_1-7 set value {\
-    sun_gen:120,level:7,starting_sun:50,\
+    sun_gen:120,level:7,starting_sun:50,lanes:6,\
     waves:[\
         {zombies:[\
             {zombie:"normal"},\
         ],\
         position:"random",\
-        delay:300,\
+        delay:400,\
         flag:false},\
         \
         {zombies:[\
             {zombie:"normal"},\
         ],\
         position:"random",\
-        delay:300,\
+        delay:400,\
         flag:false},\
         \
         {zombies:[\
             {zombie:"normal"},\
         ],\
         position:"random",\
-        delay:300,\
+        delay:400,\
         flag:false},\
         \
         {zombies:[\
@@ -27,21 +27,21 @@ data modify storage waves list.wave_1-7 set value {\
             {zombie:"normal"},\
         ],\
         position:"random",\
-        delay:300,\
+        delay:400,\
         flag:false},\
         \
         {zombies:[\
             {zombie:"pole_vaulting"},\
         ],\
         position:"random",\
-        delay:300,\
+        delay:400,\
         flag:false},\
         \
         {zombies:[\
             {zombie:"cone"},\
         ],\
         position:"random",\
-        delay:300,\
+        delay:400,\
         flag:false},\
         \
         {zombies:[\
@@ -50,15 +50,7 @@ data modify storage waves list.wave_1-7 set value {\
             {zombie:"normal"},\
         ],\
         position:"random",\
-        delay:300,\
-        flag:false},\
-        \
-        {zombies:[\
-            {zombie:"normal"},\
-            {zombie:"cone"},\
-        ],\
-        position:"random",\
-        delay:300,\
+        delay:400,\
         flag:false},\
         \
         {zombies:[\
@@ -66,7 +58,15 @@ data modify storage waves list.wave_1-7 set value {\
             {zombie:"cone"},\
         ],\
         position:"random",\
-        delay:300,\
+        delay:400,\
+        flag:false},\
+        \
+        {zombies:[\
+            {zombie:"normal"},\
+            {zombie:"cone"},\
+        ],\
+        position:"random",\
+        delay:400,\
         flag:false},\
         \
         {zombies:[\
@@ -80,7 +80,7 @@ data modify storage waves list.wave_1-7 set value {\
             {zombie:"cone"},\
         ],\
         position:"random",\
-        delay:300,\
+        delay:400,\
         flag:true},\
         \
         {zombies:[\
@@ -89,7 +89,7 @@ data modify storage waves list.wave_1-7 set value {\
             {zombie:"cone"},\
         ],\
         position:"random",\
-        delay:300,\
+        delay:400,\
         flag:false},\
         \
         {zombies:[\
@@ -98,7 +98,7 @@ data modify storage waves list.wave_1-7 set value {\
             {zombie:"cone"},\
         ],\
         position:"random",\
-        delay:300,\
+        delay:400,\
         flag:false},\
         \
         {zombies:[\
@@ -108,7 +108,7 @@ data modify storage waves list.wave_1-7 set value {\
             {zombie:"cone"},\
         ],\
         position:"random",\
-        delay:300,\
+        delay:400,\
         flag:false},\
         \
         {zombies:[\
@@ -117,7 +117,7 @@ data modify storage waves list.wave_1-7 set value {\
             {zombie:"cone"},\
         ],\
         position:"random",\
-        delay:300,\
+        delay:400,\
         flag:false},\
         \
         {zombies:[\
@@ -126,7 +126,7 @@ data modify storage waves list.wave_1-7 set value {\
             {zombie:"cone"},\
         ],\
         position:"random",\
-        delay:300,\
+        delay:400,\
         flag:false},\
         \
         {zombies:[\
@@ -135,7 +135,7 @@ data modify storage waves list.wave_1-7 set value {\
             {zombie:"cone"},\
         ],\
         position:"random",\
-        delay:300,\
+        delay:400,\
         flag:false},\
         \
         {zombies:[\
@@ -145,7 +145,7 @@ data modify storage waves list.wave_1-7 set value {\
             {zombie:"normal"},\
         ],\
         position:"random",\
-        delay:300,\
+        delay:400,\
         flag:false},\
         \
         {zombies:[\
@@ -156,7 +156,7 @@ data modify storage waves list.wave_1-7 set value {\
             {zombie:"cone"},\
         ],\
         position:"random",\
-        delay:300,\
+        delay:400,\
         flag:false},\
         \
         {zombies:[\
@@ -167,7 +167,7 @@ data modify storage waves list.wave_1-7 set value {\
             {zombie:"cone"},\
         ],\
         position:"random",\
-        delay:300,\
+        delay:400,\
         flag:false},\
         \
         {zombies:[\

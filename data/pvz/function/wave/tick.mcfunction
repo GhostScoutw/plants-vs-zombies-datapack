@@ -14,5 +14,8 @@ execute if score @s[tag=!first_wave] wave.zombie_count matches 0 run scoreboard 
 
 execute if score @s wave.time_last_wave matches ..0 run function pvz:wave/summon_wave_index with storage pvz:temp wave
 
+execute store result storage pvz:temp player.id int 1 run scoreboard players get @s generic.id
 
-execute if score @s wave.zombie_count matches 0 if score @s wave.time_last_wave matches ..0 run function pvz:wave/wave_clear
+function pvz:storage/load/wave_actionbar/tell with storage pvz:temp player
+
+execute if score @s wave.zombie_count matches 0 if score @s wave.time_last_wave matches ..0 run function pvz:wave/round_end
